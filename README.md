@@ -100,7 +100,7 @@ trees, and identify when to use them to solve specific problems.
 ## Building Custom Data Structures
 
 To get a sense of what the general process of building data structures is like,
-let's build out our very own version of the `Array` data structure in Python. As a
+let's build out our very own version of the `list` data structure in Python. As a
 reminder, every data structure we make needs a way to do the following things:
 
 - Store **collections of values**
@@ -108,8 +108,7 @@ reminder, every data structure we make needs a way to do the following things:
 - Provide **methods for interacting with those values**
 
 To start off, every data structure we'll build will be defined as a class. For
-our array implementation, we'll call our class `MyArray` to differentiate it
-from the built-in `Array` class:
+our array implementation lets call the class `MyArray`
 
 ```py
 class MyArray:
@@ -174,8 +173,8 @@ operations have a O(1) runtime, since accessing and deleting elements from a
 Dictionary has a O(1) runtime. You can refer to this [Big O Cheat Sheet][cheatsheet]
 for more details on common runtimes.
 
-> If you'd like to explore this further, try adding a `shift` and `unshift`
-> method to the array class. How does adding/removing elements from the
+> If you'd like to explore this further, try adding methods
+>  to the MyArray class that add and remove elements from the beginning of MyArray. How does adding/removing elements from the
 > beginning instead of the end of the list affect the runtime of those methods?
 
 ## Conclusion
