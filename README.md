@@ -2,10 +2,10 @@
 
 ## Learning Goals
 
-- Define "Data Structure"
-- Evaluate the properties of common data structures (lists and dictionaries)
-- Establish a general process to build data structures
-- Identify when to use different data structures
+- Define "Data Structure".
+- Evaluate the properties of common data structures (lists and dictionaries).
+- Establish a general process to build data structures.
+- Identify when to use different data structures.
 
 ***
 
@@ -13,7 +13,8 @@
 
 - **Sequence**: a data structure in which data is stored and accessed in a
 specific order.
-- **Stack** is a linear data structure that follows the principle of Last In First Out (LIFO)
+- **Stack** is a linear data structure that follows the principle of Last In
+First Out (LIFO)
 - **Index**: the location, represented by an integer, of an element in a
 sequence.
 - **Iterable**: able to be broken down into smaller parts of equal size that
@@ -35,21 +36,23 @@ What is a data structure? In essence, a data structure is a tool for organizing
 a collection data so that we can interact with it efficiently. All data
 structures share the following characteristics:
 
-- They store **collections of values**
-- They also store the **relationship between those values**
-- They provide **methods for interacting with those values**
+- They store **collections of values**.
+- They also store the **relationship between those values**.
+- They provide **methods for interacting with those values**.
 
 Consider a data structure you've been using for quite some time: a **list**.
 Lists are a common data structure that are built in to most programming
 languages. In Python, lists have the following characteristics:
 
-- They stores a collection of values of any data type
-- They stores those values in an indexed list
+- They stores a collection of values of any data type.
+- They stores those values in an indexed sequence.
 - They provide many methods for interacting with those values, like:
-  - accessing elements at a particular index position
-  - adding elements
-  - removing elements
-  - and iterating through every element
+  - Accessing elements at a particular index position.
+  - Adding elements.
+  - Removing elements.
+  - Iterating through every element.
+
+***
 
 ## Why Do We Need Different Data Structures?
 
@@ -97,22 +100,25 @@ In the rest of lessons in this section, we'll show you how to build some of
 these common data structures, including linked lists, stacks, and binary search
 trees, and identify when to use them to solve specific problems.
 
+***
+
 ## Building Custom Data Structures
 
 To get a sense of what the general process of building data structures is like,
 let's build out our very own version of the `list` data structure in Python. As a
 reminder, every data structure we make needs a way to do the following things:
 
-- Store **collections of values**
-- Store the **relationship between those values**
-- Provide **methods for interacting with those values**
+- Store **collections of values**.
+- Store the **relationship between those values**.
+- Provide **methods for interacting with those values**.
 
 To start off, every data structure we'll build will be defined as a class. For
-our array implementation lets call the class `MyArray`
+our array implementation lets call the class `MyArray`:
 
 ```py
 class MyArray:
   pass
+
 ```
 
 Each data structure will also use **another data structure** in order to store
@@ -173,9 +179,13 @@ operations have a O(1) runtime, since accessing and deleting elements from a
 Dictionary has a O(1) runtime. You can refer to this [Big O Cheat Sheet][cheatsheet]
 for more details on common runtimes.
 
-> If you'd like to explore this further, try adding methods
->  to the MyArray class that add and remove elements from the beginning of MyArray. How does adding/removing elements from the
-> beginning instead of the end of the list affect the runtime of those methods?
+> **If you'd like to explore this further, try adding methods
+> to the MyArray class that add and remove elements from the beginning of
+> MyArray. How does adding/removing elements from the
+> beginning instead of the end of the list affect the runtime of those
+> methods?**
+
+***
 
 ## Conclusion
 
@@ -195,6 +205,8 @@ for interacting with those values.
 In the coming lessons, we'll explore several common data structures by providing
 instructions on how to build them, and then giving problems to practice using
 those data structures in different scenarios.
+
+***
 
 ## Resources
 
